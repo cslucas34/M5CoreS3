@@ -1,0 +1,26 @@
+SET(SOURCES screens/ui_screenHome.c
+    screens/ui_screenBattery.c
+    screens/ui_screenNavigation.c
+    screens/ui_screenTrip.c
+    screens/ui_screenSpeed.c
+    ui.c
+    components/ui_comp_hook.c
+    ui_helpers.c
+    ui_events.c
+    images/ui_img_bg_home_png.c
+    images/ui_img_but_bat_png.c
+    images/ui_img_but_pres_bat_png.c
+    images/ui_img_but_nav_png.c
+    images/ui_img_but_pres_nav_png.c
+    images/ui_img_but_trp_png.c
+    images/ui_img_but_pres_trip_png.c
+    images/ui_img_but_spd_png.c
+    images/ui_img_but_pres_spd_png.c
+    images/ui_img_bg_bat_png.c
+    images/ui_img_but_back_png.c
+    images/ui_img_but_pres_back_png.c
+    images/ui_img_bg_nav_png.c
+    images/ui_img_bg_trip_png.c
+    images/ui_img_bg_spd_png.c)
+
+add_library(ui ${SOURCES})
